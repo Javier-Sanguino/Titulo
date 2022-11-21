@@ -12,6 +12,7 @@ body{
 div{
     margin-top: 150px;
     position: relative;
+    min-width: 320px;
 }
 
 video{
