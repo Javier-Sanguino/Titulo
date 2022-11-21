@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -10,9 +11,11 @@ body{
 }
 
 div{
-    margin-top: 150px;
+    margin: 100px auto;
+    height: auto;
+    width: 90%;
+    min-width: 300px;
     position: relative;
-    min-width: 320px;
 }
 
 video{
@@ -26,8 +29,7 @@ video{
 
 h1{
     background-color: #000;
-    font-size: 150px;
+    font-size: 10vw;
     text-align: center;
     mix-blend-mode: multiply;
-
 }
